@@ -1,8 +1,28 @@
 {
-    "tarefas": [
-        {
-            "titulo": "tarefa 1",
-            "descricao": "criar o JSON-SERVER"
-        }
-    ]
+  "tarefas": [
+    {
+      "titulo": "Concluir projeto TO-DO LIST",
+      "descricao": "projeto em JavaScript",
+      "id": 1
+    },
+    {
+      "titulo": "Lavar a moto",
+      "descricao": "Dar um trinco na moto",
+      "id": 2
+    },
+    {
+      "titulo": "Ir para praia",
+      "descricao": "Ir para praia no sábado",
+      "id": 3
+    },
+    {
+      "titulo": "Inserir nova funcionalidade no projeto",
+      "descricao": "Implementar o excluir no projeto",
+      "id": 5
+    }
+  ]
+}
+
+function excluirTarefa(){
+    
 }
