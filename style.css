@@ -72,6 +72,13 @@ header h3{
     left: 0;
     z-index: 1;
     background-color: #00000070;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 200ms;
+}
+#overlay.active{/*QUANDO O OVERLAY TIVER ESSA CLASSE ELE IRÁ APARECER*/
+    visibility: visible;
+    opacity: 1;
 }
 
 .modal{
@@ -84,12 +91,31 @@ header h3{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;    
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 200ms;
+}
+.modal.active{/*QUANDO O MODAL TIVER ESSA CLASSE ELE IRÁ APARECER*/
+    visibility: visible;
+    opacity: 1;
 }
 
 .modal form h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 24px;
     color: #999;
     margin-bottom: 26px;
+}
+
+.modal form h3 box-icon{
+    fill: #999;
+    cursor: pointer;
+}
+
+.modal form h3 box-icon:hover{
+    fill: blueviolet;
 }
 
 .modal form label{
