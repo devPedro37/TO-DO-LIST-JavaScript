@@ -20,14 +20,14 @@ function inserirTarefas(listaTarefas){
     if(listaTarefas.length > 0){
         lista.innerHTML = ""
         listaTarefas.map(tarefa => {
-            lista.innerHTML += `<li>
-                                    <h5>${tarefa.titulo}</h5>
-                                        <p>${tarefa.descricao}</p>
-                                            <div class="actions">
-                                                <box-icon type='solid' name='trash' size="sm"></box-icon>
-                                            </div>
-                                 </li>
-                                 `; 
+            lista.innerHTML += 
+                 `<li>
+                     <h5>${tarefa.titulo}</h5>
+                          <p>${tarefa.descricao}</p>
+                            <div class="actions">
+                               <box-icon type='solid' name='trash' size="sm" onclick="excluirTarefa(${tarefa.id})"></box-icon>
+                            </div>
+                 </li>`; 
         })
     }
     else{
@@ -54,6 +54,17 @@ function novaTarefa(){
     .then(res => res.json())//TRATAR O RETORNO, SABER SE FUNCIONOU A INSERÇÃO DOS DADOS
     .then(res => {
         fecharTarefa();
+        buscarTarefas();
+    })
+}
+
+function excluirTarefa(id){
+    fetch(`http://localhost:3000/tarefas/${id}`, {
+        method: "DELETE",
+    })
+    .then(res => res.json())
+    .then(res =>{
+        alert("Tarefa excluída com sucesso!");
         buscarTarefas();
     })
 }
