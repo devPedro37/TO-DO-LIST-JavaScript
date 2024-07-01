@@ -15,3 +15,12 @@
 # IMAGENS DA APLICAÇÃO:
 <img src="https://github.com/devPedro37/TO-DO-LIST-JavaScript/blob/master/images/PROJETO_SEM_TAREFAS.png" alt="Imagem do projeto sem tarefas cadastradas">
 <p>Esta é a página principal do projeto, onde é mostrado que nenhuma atividade foi cadastrada.</p>
+
+<img src="https://github.com/devPedro37/TO-DO-LIST-JavaScript/blob/master/images/CADASTRANDO%20TAREFA.png" alt="Modal para cadastrar uma tarefa">
+<p>Este é o modal que é aberto para o usuário criar sua atividade.</p>
+
+<img src="https://github.com/devPedro37/TO-DO-LIST-JavaScript/blob/master/images/TAREFA%20CADASTRADA.png" alt="Imagem da tarefa cadastrada">
+<p>Esta é a página principal do projeto, onde é mostrado uma atividade que foi cadastrada.</p>
+
+<img src="https://github.com/devPedro37/TO-DO-LIST-JavaScript/blob/master/images/EXCLUINDO%20TAREFA.png" alt="Imagem de exclusão da tarefa cadastrada">
+<p>Esta é a página principal do projeto, onde é mostrado a exclusão da atividade que foi cadastrada.</p>
