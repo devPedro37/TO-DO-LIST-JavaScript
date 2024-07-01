@@ -24,3 +24,8 @@
 
 <img src="https://github.com/devPedro37/TO-DO-LIST-JavaScript/blob/master/images/EXCLUINDO%20TAREFA.png" alt="Imagem de exclusão da tarefa cadastrada">
 <p>Esta é a página principal do projeto, onde é mostrado a exclusão da atividade que foi cadastrada.</p>
+
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
