@@ -1,14 +1,3 @@
 {
-  "tarefas": [
-    {
-      "titulo": "Concluir projeto TO-DO LIST",
-      "descricao": "projeto em JavaScript",
-      "id": 1
-    },
-    {
-      "titulo": "Inserir nova funcionalidade no projeto",
-      "descricao": "Implementar o excluir no projeto",
-      "id": 5
-    }
-  ]
+  "tarefas": []
 }
