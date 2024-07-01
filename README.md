@@ -11,3 +11,6 @@
 - CSS - ESTILIZAÇÃO; :stars:
 - JAVASCRIPT - REGRAS E AÇÕES; :recycle:
 - API.JSON - API UTILIZADA. :signal_strength:
+
+# IMAGENS DA APLICAÇÃO:
+<img src="PROJETO_SEM_TAREFAS.png" alt="Imagem do projeto sem tarefas cadastradas">
