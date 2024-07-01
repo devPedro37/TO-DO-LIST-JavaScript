@@ -13,4 +13,4 @@
 - API.JSON - API UTILIZADA. :signal_strength:
 
 # IMAGENS DA APLICAÇÃO:
-<img src="PROJETO_SEM_TAREFAS.png" alt="Imagem do projeto sem tarefas cadastradas">
+<img src="[PROJETO_SEM_TAREFAS.png](https://github.com/devPedro37/TO-DO-LIST-JavaScript/blob/master/images/PROJETO_SEM_TAREFAS.png)" alt="Imagem do projeto sem tarefas cadastradas">
